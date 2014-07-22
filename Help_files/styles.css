@@ -1,0 +1,23 @@
+/* Rating styles */
+.product-main-info .stars img {
+	margin: 0;
+	padding-top: 3px;
+}
+.product-main-info .stars {
+	float: left;
+	padding: 0 5px 0 0;
+}
+.product-main-info .image-border .stars {
+	float: none;
+	padding: 8px 0 0 0;
+	text-align: center;
+}
+.stars {
+	padding-bottom: 0;
+}
+.product-image .stars img, .product-item-image .stars img, .feature-image .stars img, .image-border .stars img, .mainbox2-body .product-image .stars img, .mainbox2-body .product-item-image .stars img, .mainbox2-body .mainbox2-body .feature-image .stars img, .mainbox2-body .image-border .stars img  {
+	border: 0 none;
+	background-color: transparent;
+	padding: 0;
+}
+/* /Rating styles */

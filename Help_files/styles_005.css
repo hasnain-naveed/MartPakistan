@@ -1,0 +1,122 @@
+
+
+.hot-block_packs-list {
+	min-height: 110px;
+}
+.hot-block_packs-item {
+	float: left;
+	margin: 0 auto;
+	list-style: none;
+	width: 25%;
+	overflow: hidden;
+}
+.hot-block_packs-item center {
+	padding: 0 5px;
+	margin: 0;
+	float: none;
+}
+
+.hot-block_packs-container {
+	padding: 20px 0;
+}
+.hot-block_packs-list {
+	margin: 0 35px;
+}
+.hot-block_packs-next {
+	float: right;
+	margin: 70px auto;
+	width: 16px;
+	height: 30px;
+	cursor: pointer;
+	background: transparent url(../../images/icons/block_packs-next-def.png) no-repeat 0 0;
+	display: inline;
+}
+.hot-block_packs-prev {
+	float: left;
+	margin: 70px auto;
+	width: 16px;
+	height: 30px;
+	cursor: pointer;
+	background: transparent url(../../images/icons/block_packs-previous-def.png) no-repeat 0 0;
+	display: inline;
+}
+.hot-block_packs-next:hover {
+	background: transparent url(../../images/icons/block_packs-next-hover.png) no-repeat 0 0;
+}
+.hot-block_packs-prev:hover {
+	background: transparent url(../../images/icons/block_packs-previous-hover.png) no-repeat 0 0;
+}
+.block_packs-footer {
+	padding: 8px;
+	margin: 3px;
+}
+.block_packs-footer a.active {
+	font-weight: bold;
+}
+.block_packs-main .pagination {
+	margin: -15px 15px -5px;
+	float: right;
+	padding-left: 3px;
+}
+.block_packs-main .updates-wrapper {
+	background-image: none;
+	width: auto;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.padding-top-20{padding-top:20px;}
+.padding-bottom-20{padding-bottom:20px;}
+.padding-top-10{padding-top:10px;}
+.padding-bottom-10{padding-bottom:10px;}
+
+.block_packs-price{
+	font-size: 1.0em;
+}
+.block_packs-strikethrough{
+	text-decoration: line-through;
+}
+.block_packs-float-left{
+	float:left;
+	
+}
+.block_packs-float-right{
+	float:right;
+	
+}
+
+
+
+.block-packs-title{
+color: #333333;
+font-size: 18px;
+font-weight: bold;
+background:url(../../../../../images/skin/h-sepline.gif) center bottom no-repeat;
+padding-bottom:20px;
+height:22px;
+width:100%;
+}
+.title-bottom-border{padding-bottom:5px; border-bottom:1px dotted #b7b7b7;}
+.block-packs-body{
+	color: green;
+	width:100%;
+	float:left;
+}
+
+.block-packs-item{
+	float: left;
+	width: 22%;
+}
+
+.block-packs-label{
+	width: 80px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#block-packs-btn{
+	float:left;
+	width: 17px;
+	height: 145px;
+	padding-top:57.5px;
+	cursor: pointer;
+}

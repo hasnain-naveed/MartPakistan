@@ -1,0 +1,141 @@
+.information_html_block span, .information_html_block p {
+	line-height:180%;
+	letter-spacing:0.9px;
+	font-size:1.12em;
+}
+
+.information_html_block h1{
+	padding: 7px 0 0 4px;
+	margin-bottom: 4px;
+	font: normal 250% Arial;
+	color: #4E637E;
+	letter-spacing:0.9px;
+}
+
+.information_html_block h2{
+	padding: 7px 0 4px;
+	margin-bottom: 4px;
+	font: normal 200% Arial;
+	color: #4E637E;
+	letter-spacing:0.9px;
+	width: 100%;
+}
+
+.information_html_block img{
+	border: 5px solid #dfdfdf;
+}
+.information_html_block img:hover{
+	border: 5px solid #B4B5B1;
+}
+
+.leftCol{
+	float:left;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	width: 48%;
+}
+.rightCol{
+	float:right;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	width: 48%;	
+}
+.custCol{
+	overflow-x: hidden;
+	float:left;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.bigLetter {
+	padding: 0pt 5px;
+	background: white none repeat scroll 0% 0%;
+	font-size: 60px;
+	font-family: Bookman Old Style;
+	float: left;
+	margin-right: 4px;
+	line-height: 100%;
+	-moz-background-clip: -moz-initial;
+	-moz-background-origin: -moz-initial;
+	-moz-background-inline-policy: -moz-initial;
+}
+
+.separator{
+	clear: both;
+	border-top: 2px solid #dfdfdf;
+	width: 100%;
+	
+}
+
+
+.information_html_block blockquote {
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+	clear: both;
+	color: #414141;
+	font-family: "Myriad Pro", Verdana, sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+	font-style: italic;
+}
+
+.information_html_block blockquote p {
+	padding: 10px 40px;	
+}
+
+.information_html_block blockquote .source {
+	display: block;
+	font-size: 14px;
+	font-family: Arial;
+	font-style: normal;
+}
+
+.information_html_block blockquote.pullquote,div.pullquote {
+	width: 255px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 30px;
+	border: 1px solid #ddd;
+	float: right;
+}
+
+.information_html_block blockquote.pullquote p,div.pullquote p {
+}
+
+.information_html_block blockquote {
+	background: #fff url(q_left.png) 1% 15% no-repeat;
+}
+.information_html_block blockquote.emphasize{
+	background-color:#F9FFE3;
+}
+
+.normal {
+	font-size: 0.8em;
+}
+
+.information_html_block blockquote.emphasize:hover{
+	background-color:#C9E4FF;
+}
+
+.information_html_block blockquote p {
+	background: transparent url(q_right.png) 99% 85% no-repeat;
+		line-height: 120%;
+	
+}
+
+.information_html_block blockquote.pullquote,div.pullquote {
+	background: #f4f4f4 url(q_left.png) 5% 5% no-repeat;
+}
+
+.information_html_block blockquote.pullquote p,div.pullquote p {
+	background: transparent url(q_right.png) 95% 95% no-repeat;
+}
